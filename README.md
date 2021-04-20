@@ -1,6 +1,15 @@
 # doggy_transfer_learning
 #### Solution for [ImageWoof dataset](https://github.com/fastai/imagenette) classification problem using `transfer Learning` technique.
 
+## Requirements
+
+```bash
+pip3 install torch torchvision tqdm numpy pandas matplotlib seaborn
+```
+
+## Usage
+Just install `jupyter notebook` and have fun.
+
 ## Description of a problem
 `Imagewoof` is a subset of 10 classes from Imagenet that aren't so easy to classify, since they're all dog breeds. The breeds are: Australian terrier, Border terrier, Samoyed, Beagle, Shih-Tzu, English foxhound, Rhodesian ridgeback, Dingo, Golden retriever, Old English sheepdog.
 
