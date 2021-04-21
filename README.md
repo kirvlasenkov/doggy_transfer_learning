@@ -27,6 +27,7 @@ Whereupon, there are two general steps:
 - Secondly, It's the time for model `fine-tuning`, but with `discriminative learning rates` technique. The network also trained for 25 epochs.
 
 ## Results
-Below you can see a plot of an accuracy score for finetuned model on a test data. In my opinion, it's a good score for such a small time of learning.
+Below you can see a plot of an accuracy score for finetuned model on a validation data. In my opinion, it's a good score for such a small time of learning.
+But before fine-tuning, when the model was only a feature extractor, accuracy on a test a data was about `0.896156`. I guess, learning only one layer (head) and freezing of a backbone have some limit value of accuracy and for further improvment it's necessary to slightly correct weights on all layers of NN.
 
 ![accuracy](static/accuracy.png)
