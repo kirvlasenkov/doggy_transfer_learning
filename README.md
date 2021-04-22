@@ -6,6 +6,11 @@
 ```bash
 pip3 install torch torchvision tqdm numpy pandas matplotlib seaborn
 ```
+**or**
+
+```bash
+pip3 install -r requirements.txt
+```
 
 ## Usage
 Just install `jupyter notebook` and have fun.
